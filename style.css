@@ -1,0 +1,139 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    width: 1140px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+
+.nav > a {
+    border-radius: 8px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+padding: 15px 20px;
+}
+
+.nav > h1{
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+/* =-=-=-=-=-=-=-=-=-=-0==-=-=-=-=-=-banner */
+
+.banner > div{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+
+
+}
+.banner > div > p{
+    color: gray;
+}
+
+.banner > div > a{
+    padding: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.banner{
+    padding: 30px 0;
+    background-image: url('./assets/Hero-bg.png');
+    background-position-y: center ;
+    background-size: cover;
+
+}
+
+
+.banner > div > img{
+    width: 200px;
+    }
+
+
+    /* =-=-=-=-=-=-=-=-=-=-0==-=-=-=-=-=-product dessing */
+
+
+
+
+    .prodects > div{
+
+        background-color: rgba(231, 231, 231, 0.422);
+        border-radius: 20px;
+
+
+
+    }
+
+
+.mainntitlebox{
+    text-align: center;
+    padding: 20px 00;
+    
+}
+
+.mainntitlebox > h1{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* -09-09000000000000000000000000000000  boxes*/
+
+
+
+.itemsall{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.itemng{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+}
+
+
+.txtesbox {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+}
+
+    
